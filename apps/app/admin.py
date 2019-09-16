@@ -7,7 +7,7 @@ admin.site.site_header = 'LiveSet Admin'
 admin.site.site_title = 'LiveSet Admin'
 admin.site.index_title = 'LiveSet Admin'
 
-COMMON_LIST_DISPLAY = ['id', 'name', 'order', 'file']
+COMMON_LIST_DISPLAY = ['id', 'name', 'order', 'file', 'active']
 
 
 @admin.register(models.Song)

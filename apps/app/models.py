@@ -10,6 +10,7 @@ class ResourceModel(models.Model):
     name = models.CharField(max_length=20, unique=True)
     order = models.PositiveIntegerField(default=0)
     file = models.FileField()
+    active = models.BooleanField(default=False)
 
     class Meta:
         abstract = True
