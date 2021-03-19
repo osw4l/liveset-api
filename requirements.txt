@@ -22,7 +22,7 @@ django-cors-headers==2.1.0
 django-extensions==2.1.6
 django-rest-auth==0.9.3
 django-rest-swagger==2.2.0
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 hyperlink==19.0.0
 idna==2.8
 incremental==17.5.0
